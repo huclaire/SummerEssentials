@@ -1,0 +1,53 @@
+/*setting all basic, permanent features*/
+body
+{
+font-family: monospace, Verdana, sans-serif, fantasy, cursive;
+text-align: left;
+background-color: RGB(255,255,220);
+margin: 7%;
+line-height: 25pt;
+}
+
+.centertext
+{
+text-align: center;
+}
+
+/*Setting font size for specific identifiers*/
+h1
+{
+font-size: 60pt;
+}
+
+ol
+{
+font-size: 14pt;
+}
+
+/*Setting all features for images*/
+img
+{
+border-style: solid;
+border-width: large;
+border-color: black;
+text-align: center;
+}
+
+/*This rule makes it so the border doesn't show up around the padding*/
+.picture
+{
+padding: 3%;
+}
+
+/*rules so images can float to either side and text can be wrapped around them*/
+.float-right
+{
+float: right;
+padding: 3%;
+}
+
+.float-left
+{
+float: left;
+padding: 3%;
+}
